@@ -22,9 +22,13 @@ if os == "Darwin"                   "OS X GUI specific
     endif
     set guifont=courier_new:h14     "terminal and GUI shared options
 "----------------------------------------------------------------------"
+"Linux
+"----------------------------------------------------------------------"
 elseif os == "Linux"
     colorscheme desert
     "set guifont=courier_new:h12
+"----------------------------------------------------------------------"
+"Windows
 "----------------------------------------------------------------------"
 else    "windows
     set guioptions-=T
